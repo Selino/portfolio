@@ -1,0 +1,754 @@
+/* CSS Document */
+
+.wrapper-header .section-sub {
+  background-color: #1AA89F;
+}
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+ul.subnav2 {
+	border:1px solid #1AA89F;
+	border-top: none;
+	text-shadow: none;
+}
+#hiv101.active {
+	background-color: #1AA89F;
+}
+#section-sub.hiv101-active {
+	background-color: #1AA89F;
+}
+ul.subnav li.subnav-on {
+	text-shadow: #FFFFFF 0px 0px 18px;
+}
+.subnav-on {
+	background: #037b74 url(/sfaf/images/sha_subnav.png) repeat-x;
+}
+.home-item {
+	border-top: 7px solid #1AA89f;
+}
+a {
+	text-decoration: none;
+	color: #1AA89F;
+}
+/* BODY ELEMENTS */
+.col1 {
+	float: left;
+	width: 730px;
+	position: relative;
+}
+.col2 {
+	float: right;
+	width: 250px;
+	position: relative;
+}
+.beauty-shot {
+	width: 100%;
+	height: 266px;
+}
+.bs {
+	background: transparent url(/sfaf/images/beautyshots/bs_hiv101.png) no-repeat right top;
+	height: 100%;
+}
+.bs h1 {
+	padding: 0px;
+	margin: 0px;
+	font-size: 4em;
+	font-weight: bold;
+	position: absolute;
+	top: 40px;
+	left: 30px;
+}
+.bs p {
+	padding: 0px;
+	margin: 0px;
+	position: absolute;
+	top: 100px;
+	left: 30px;
+	width: 300px;
+	line-height: 1.6em;
+}
+.home-item {
+	width: 218px;
+	height: 220px;
+	float: left;
+	margin: 18px 8px 0px 0px;
+	padding: 10px;
+	font-size: .9em;
+	cursor: pointer;
+}
+.last {
+	margin-right: 0px;
+}
+.home-item h3 {
+	margin: 0px;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+.btn-corner {
+	float: right;
+	background: url(/sfaf/images/icons/icon_corner.png) no-repeat center right;
+	padding-right: 20px;
+	font-size: .6em;
+	text-transform: uppercase;
+	color: #999;
+	margin: 10px;
+	cursor: pointer;
+}
+.side-section {
+	width: 240px;
+	float: left;
+	margin: 0px 0px 10px 10px;
+}
+.side-section h3 {
+	font-size: 1em;
+	font-weight: bold;
+	margin: 0px;
+}
+.side-section ul {
+	clear: both;
+	margin: 0;
+	padding: 0;
+	font-size: .9em;
+	list-style: none;
+}
+.side-section ul li {
+	border-top: solid 1px #CCC;
+	height: 66px;
+	padding: 10px 0 0 50px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.side-section .header {
+	font-weight: bolder;
+	font-size: 1.4em;
+	height: 47px;
+	border: 1px solid #fff;
+	background-image: url(/sfaf/images/backgrounds/bk_sideheader.png);
+	background-repeat: repeat-x;
+	padding: 0px;
+	margin: 0px;
+	cursor: auto;
+}
+.side-section .header h3 {
+	padding: 0px;
+	margin: 15px 0px 0px 10px;
+	float: left;
+	font-family: "museo-sans-1", Arial, Helvetica, sans-serif;
+}
+.side-section ul li.header b {
+	color: #1AA89F;
+	float: right;
+	font-size: .6em;
+	margin: 20px 10px 0px 0px;
+	padding: 0px;
+	cursor: pointer;
+	font-weight: normal;
+}
+.side-section ul li.capitol {
+	background: url(/sfaf/images/icons/icon_stats.png) no-repeat 10px;
+}
+.side-section ul li.podium {
+	background: url(/sfaf/images/icons/icon_book.png) no-repeat 10px;
+}
+.side-section ul li.paper {
+	background: url(/sfaf/images/icons/icon_check.png) no-repeat 10px;
+}
+/* FACTS SECTION */
+.hot-topics ul li {
+	border-top: solid 1px #CCC;
+	height: auto;
+	padding: 10px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.hot-topics ul li.item h3 {
+	margin: 0px;
+	color: #1AA89F;
+}
+.hot-topics ul li.item .title {
+	font-weight: bold;
+	font-size: .8em;
+}
+.hot-topics ul li.item .author {
+	font-style: italic;
+	font-size: .8em;
+}
+.hot-topics ul li.item h4 {
+	margin: 0px;
+	font-size: .7em;
+	font-weight: bold;
+	color: #999;
+}
+img.icon-corner {
+	height: 10px;
+	width: 10px;
+	float: right;
+	margin: -15px 5px 0 0;
+	cursor: pointer;
+}
+/* TESTING PAGE */
+.section-testing .col1 {
+	float: left;
+	width: 758px;
+	margin-right: 10px;
+	font-size: .9em;
+}
+form.archive-search {
+	border: solid 1px #CCC;
+	display: inline-block;
+	height: 30px;
+	padding: 0;
+	position: absolute;
+	right: 10px;
+	top: 50px;
+}
+form.archive-search input {
+	background:none repeat scroll 0 0 #FFFFFF;
+	border:medium none #FFFFFF;
+	float:left;
+	font-size:90%;
+	font-weight:bold;
+	outline:medium none;
+	padding: 7px 0 4px 5px;
+	width:330px;
+	color: #CCC;	
+}
+.controls {
+	float: right;
+	margin: 0 20px 20px 0;
+	clear: right;
+	display: block;
+}
+.col1 .left {
+	float: left;
+	margin: 0 10px 0 0;
+	width: 190px;
+}
+ul.menu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 189px;
+	position: absolute;
+	left: -10px;
+	font-size: .8em;
+}
+ul.menu li {
+	list-style: none;
+	margin: 0;
+	padding: 0 0 0 20px;
+	height: 32px;
+	line-height: 32px;
+}
+ul.menu li.active {
+	background: url(/sfaf/images/backgrounds/bg_hiv101_menu_active.png) no-repeat left top;
+	font-weight: bold;
+}
+.col1 .right {
+	float: right;
+	margin: 0 20px 0 0;
+	width: 540px;
+	border-top: solid 1px #CCC;
+	padding-top: 20px;
+}
+.section-testing .col2 {
+	float: left;
+	width: 212px;
+	min-height: 400px;
+}
+.section-testing .col2 h2 {
+	font-size: 1.3em;
+	border-top: solid 7px #1AA89F;
+	margin: 0 0 10px 0;
+	padding: 20px 0 0 10px;
+}
+.section-testing .col2 h3 {
+	font-weight: bold;
+	margin: 0;
+	padding: 20px 0 0 0;
+}
+.section-testing .col2 div {
+	font-size: .76em;
+	border-top: solid 1px #CCC;
+	padding: 0 10px 20px 56px;
+}
+.section-testing .col2 div.testing {
+	background: url(/sfaf/images/icons/icon_hiv101_needle_s1.png) no-repeat 10px 20px;
+}
+.section-testing .col2 div.support {
+	background: url(/sfaf/images/icons/icon_hiv101_paper_s1.png) no-repeat 10px 20px;
+}
+.section-testing .col2 div.questions {
+	background: url(/sfaf/images/icons/icon_hiv101_capital_s1.png) no-repeat 10px 20px;
+}
+/* BETA ARCHIVE PAGE */
+div.archive-top {
+	border-top: solid 1px #CCC;
+	margin: 20px 10px;
+}
+.micro {
+	font-size: .7em;
+	color: #CCC;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 5px 0;
+	display: inline-block;
+}
+.archive-top div.left {
+	float: left;
+	width: 115px;
+}
+.archive-top div.right {
+	float: left;
+	font-size: .9em;
+	padding-top: 10px;
+}
+.archive-top h3 {
+	margin: 10px 0 10px 20px;
+	font-weight: bold;
+}
+ul.archive1 {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+ul.archive1 li {
+	float: left;
+	width: 250px;
+	margin-left: 20px;
+}
+ul.archive1 li h3, ul.archive1 li h3 a {
+	color: #1AA89F;
+	margin: 0;
+	text-decoration: none;
+}
+ul.archive-item {
+	list-style: none;
+	padding: 20px 0;
+	margin: 10px;
+	border-top: solid 1px #CCC;
+}
+ul.archive-item li {
+	float: left;
+	margin-left: 20px;
+}
+ul.archive-item li.year {
+	font-weight: bold;
+	line-height: 90px;
+	font-size: 1.2em;
+}
+ul.archive-item li h3 {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+ul.archive-item li.text {
+	width: 308px;
+	font-size: .75em;
+	line-height: 2em;
+}
+/* BETA */
+.col1 .beta, .col1 .beta p  {
+	border-top: none;
+	padding-top: 0;
+	margin-top: 0;
+}
+ul.beta-control a {
+	text-decoration: none;
+	color: inherit;
+}
+ul.beta-control {
+	list-style: none;
+	padding: 0;
+	margin: 0 10px 30px 10px;
+	height: 32px;
+}
+ul.beta-control li {
+	float: left;
+	height: 32px;
+	border: solid 1px #CCC;
+	margin: 0;
+	line-height: 32px;
+}
+ul.beta-control li.year {
+	border-left: none;
+	width: 166px;
+	font-weight: bold;
+	background: url(/sfaf/images/btns/btn_beta_updown.png) no-repeat 150px center;
+}
+ul.beta-control li.title {
+	border-left: none;
+	border-right: none;
+	width: 330px;
+	padding-left: 20px;
+	font-weight: bold;
+}
+ul.beta-control li.controls {
+	border-left: none;
+	border-right: none;
+	width: 106px;
+}
+ul.beta-control li.back-btn {
+	border-right: none;
+	width: 112px;
+	font-size: .7em;
+	font-weight: bold;
+	text-align: center;
+	color: #CCC;
+	background: url(/sfaf/images/icons/icon_corner_hiv101.png) no-repeat right 15px;
+	cursor: pointer;
+}
+ul.beta-control li.back-btn:hover {
+	color: #999;
+}
+ul.beta-control li.next-btn {
+	border-left: none;
+	width: 112px;
+	font-size: .7em;
+	font-weight: bold;
+	text-align: center;
+	color: #CCC;
+	cursor: pointer;
+}
+ul.beta-control li.next-btn:hover {
+	color: #999;
+}
+ul.beta-control li.title-bottom {
+	border-right: none;
+	border-left: none;
+	width: 270px;
+	padding-left: 20px;
+	font-weight: bold;
+	color: #1AA89F;
+}
+h2.beta-article-title  {
+	margin: 0;
+	color: #333;
+}
+h3.beta-article-author  {
+	font-size: .9em;
+	font-weight: normal;
+	font-style: oblique;
+	margin: 0 0 30px 0;
+	color: #333;
+}
+/* BETA MAIN */
+.beta-main-left {
+	float: left;
+	width: 450px;
+	margin: 0 50px 0 10px;
+	line-height: 1.4em;
+}
+.beta-main-left h2 {
+	font-size: 1.7em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	margin: 0;
+}
+.beta-main-right {
+	float: left;
+	width: 460px;
+}
+p.hr {
+	margin: 10px;
+	border-bottom: solid 1px #CCC;
+}
+ul.beta-main-control {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	height: 32px;
+}
+ul.beta-main-control a {
+	color: inherit;
+}
+ul.beta-main-control li {
+	float: left;
+	border-bottom: solid 1px #CCC;
+	margin: 0;
+	height: 25px;
+	line-height: 18px;
+}
+ul.beta-main-control li.latest-btn {
+	border-left: none;
+	width: 100px;
+	font-size: .7em;
+	font-weight: bold;
+	color: #CCC;
+	cursor: pointer;
+}
+ul.beta-main-control li.latest-btn:hover {
+	color: #999;
+}
+ul.beta-main-control li.past-btn {
+	border-left: none;
+	width: 120px;
+	font-size: .7em;
+	font-weight: bold;
+	color: #CCC;
+	cursor: pointer;
+	background: url(/sfaf/images/icons/icon_corner_hiv101.png) no-repeat right 10px;
+	padding-right: 10px;
+}
+ul.beta-main-control li.past-btn:hover {
+	color: #999;
+}
+ul.beta-main-control li.title {
+	width: 230px;
+	font-weight: bold;
+}
+.beta-main-pict {
+	float: left;
+	width: 115px;
+}
+div.beta-main-list {
+	float: right;
+	width: 300px;
+	font-size: .85em;
+}
+div.beta-main-list h3 {
+	margin: 0;
+	padding: 0;
+}
+div.beta-main-list p {
+	margin: 0 0 20px 0;
+}
+.beta-sub-footer {
+	font-size: .85em;
+	text-align: right;
+	padding: 10px;
+}
+/* HOT TOPICS */
+div.hottopics-col {
+	margin: 10px 10px 0 0;
+	padding: 0;
+	border-top: solid 7px #1AA89F;
+	min-height: 700px;
+	width: 320px;
+	float: left;
+}
+div.hottopics-col h3, div.hottopics-col-last h3 {
+	color: #1AA89F;
+	font-weight: bold;
+	margin: 10px 0 0 0;
+}
+img.hottopic-section-icon {
+	float: right;
+	margin: 10px;
+}
+div.hottopics-col h2, div.hottopics-col-last h2 {
+	margin: 20px 0 0 10px;
+	font-size: 1.8em;
+	line-height: 1em;
+}
+div.hottopics-col p.subhead, div.hottopics-col-last p.subhead {
+	margin: 10px 10px 20px 10px;
+	font-size: .8em;
+	color: #6D6B65;
+	line-height: 1.5em;
+}
+div.hottopics-col-last {
+	margin: 10px 0 0 0;
+	padding: 0;
+	border-top: solid 7px #1AA89F;
+	min-height: 200px;
+	width: 320px;
+	float: right;
+	clear: right;
+}
+ul.hottopics-control {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: .6em;
+	font-weight: bold;
+	border-bottom: solid 1px #CCC;
+	border-top: solid 1px #CCC;
+	height: 20px;
+	line-height: 20px;
+}
+ul.hottopics-control li a {
+	text-decoration: none;
+	color: inherit;
+}
+ul.hottopics-control li.control1 {
+	color: #333;
+	text-transform: uppercase;
+	float: left;
+	padding-left: 10px;
+}
+ul.hottopics-control li.control2  {
+	background:url("/sfaf/images/icons/icon_corner_hiv101.png") no-repeat scroll right center transparent;
+	color:#B4B3A0;
+	float:right;
+	margin-right:10px;
+	padding-right:20px;
+	text-align:right;
+	text-transform:uppercase;
+}
+ul.hottopics-control li.control2 a:hover {
+	color: #999;
+}
+div.hottopics-col ul.hottopics-sub {
+	margin: 0;
+	padding: 10px;
+	list-style: none;
+	min-height: 200px;
+	background: url(/sfaf/images/backgrounds/bg_subsection_grad.png) repeat-x left top;
+}
+div.hottopics-col ul.hottopics-sub li.left {
+	float: left;
+	width: 60px;
+	padding: 10px;
+}
+div.hottopics-col ul.hottopics-sub li.right {
+	float: left;
+	width: 210px;
+}
+div.hottopics-col ul.hottopics-sub li.hr {
+	border-bottom: solid 1px #CCC;
+	clear: both;
+}
+div.hottopics-col ul.hottopics-sub h3 {
+	color: #1AA89F;
+	font-weight: bold;
+	margin: 10px 0 0 0;
+	font-size: .9em;
+}
+div.hottopics-col ul.hottopics-sub span.date {
+	font-weight: bold;
+	font-size: .75em;
+}
+div.hottopics-col ul.hottopics-sub span.author {
+	font-style:italic;
+	font-size: .75em;
+
+}
+div.hottopics-col ul.hottopics-sub p {
+	margin: 0 0 10px 0;
+
+}
+div.hottopics-col ul.hottopics-sub span.more {
+	color: #1AA89F;
+	margin-left: 10px;
+}
+ul.beta-pict-section {
+	list-style: none;
+	margin: 10px;
+	padding: 0;
+}
+ul.beta-pict-section li.pict {
+	float: left;
+	font-size: .7em;
+	margin-right: 8px;
+	font-weight: bold;
+}
+ul.beta-pict-section li.text {
+	float: left;
+	width: 170px;
+	font-size: .8em;
+}
+.new {
+	background-color: #FF0;
+}
+p.also {
+	border-bottom: solid 1px #CCC;
+	font-size: .7em;
+	text-transform: uppercase;
+	margin: 20px 10px;
+	padding-bottom: 6px;
+	font-weight: bold;
+}
+ul.also {
+	font-size: .8em;
+	line-height: 2em;
+	list-style: disc;
+	margin-left: 30px;
+	list-style-image:url(/sfaf/images/backgrounds/hiv101_bullet.png);
+}
+div.sub-gradient {
+	background: url(/sfaf/images/backgrounds/bg_subsection_grad.png) repeat-x left top;
+	min-height: 100px;
+	padding: 10px;
+	font-size: .8em;
+}
+div.date-widget {
+	color: #1AA89F;
+	width: 31px;
+	height: 37px;
+	padding: 0;
+	margin: 0;
+	margin-top: 10px;
+	position: relative;
+}
+div.date-widget h3.month {
+	margin: 0;
+	padding: 0;
+	background-color: #1AA89F;
+	color: #FFF;
+	font-size: 9px;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+div.date-widget h3.day {
+	margin: 0;
+	padding: 0;
+	background: url(/sfaf/images/backgrounds/bg_date_box.png) no-repeat left bottom;
+	border: solid 1px #CCC;
+	border-top: none;
+	color: #FFF;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	color: #1AA89F;
+	text-shadow: 1px 1px #FFF;
+}
+div.date-widget p.date-time {
+	position: absolute;
+	top: 0px;
+	left: 40px;
+	width: 160px;
+	color: #000;
+	font-weight: bold;
+	margin: 0;
+}
+img.hivision-pict {
+	float: right;
+	margin: 10px;
+}
+ul.podcast li.left {
+	float: left;
+	margin-top: 10px;
+}
+ul.podcast li.right {
+	float: left;
+	margin-left: 20px;
+	width: 200px;
+	margin-top: 10px;
+}
+ul.podcast li.left div.podcast-number {
+	background-color: #FF0;
+	padding: 4px;
+	font-size: 18px;
+	font-weight: bold;
+	box-shadow:  1px 1px 1px #CCC;
+	-o-box-shadow: 1px 1px 1px #CCC;
+	-moz-box-shadow: 1px 1px 1px #CCC;
+	-webkit-box-shadow: 1px 1px 1px #CCC;
+	filter: 
+        /*progid:DXImageTransform.Microsoft.Shadow(color=#CCCCCC,direction=0,strength=2)*/
+        progid:DXImageTransform.Microsoft.Shadow(color=#CCCCCC,direction=90,strength=2)
+        progid:DXImageTransform.Microsoft.Shadow(color=#CCCCCC,direction=180,strength=2)
+        /*progid:DXImageTransform.Microsoft.Shadow(color=#CCCCCC,direction=270,strength=2);*/
+}
+ul.podcast li.right span.name {
+	font-weight: bold;
+	font-size: .95em;
+}
+ul.podcast li.right span.title {
+	font-style: italic;
+	font-size: .95em;
+}

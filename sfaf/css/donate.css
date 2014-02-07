@@ -1,0 +1,162 @@
+/* CSS Document */
+
+.wrapper-header .section-sub {
+  background-color: #FFA92D;
+}
+ul.subnav2 {
+  border:1px solid #FFA92D;
+  border-top: none;
+}
+#aboutus.active {
+	background-color: #FFA92D;
+}
+#section-sub.aboutus-active {
+	background-color: #FFA92D;
+}
+/* BODY ELEMENTS */
+.col1 {
+	float: left;
+	width: 730px;
+	position: relative;
+}
+.col2 {
+	float: right;
+	width: 250px;
+	position: relative;
+}
+.beauty-shot {
+	width: 100%;
+	height: 266px;
+}
+.bs {
+	background: transparent url(/sfaf/images/beautyshots/bs_aboutus.png) no-repeat right top;
+	height: 100%;
+}
+.bs h3 {
+	padding: 0px;
+	margin: 0px;
+	font-size: 3em;
+	font-weight: bold;
+	position: absolute;
+	top: 40px;
+	left: 30px;
+}
+.bs p {
+	padding: 0px;
+	margin: 0px;
+	position: absolute;
+	top: 100px;
+	left: 30px;
+	width: 300px;
+	line-height: 1.5em;
+}
+.home-item {
+	width: 218px;
+	height: 180px;
+	float: left;
+	margin: 18px 8px 0px 0px;
+	padding: 10px;
+	font-size: 1em;
+	cursor: pointer;
+}
+.last {
+	margin-right: 0px;
+}
+.home-item h3 {
+	margin: 0px;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+.btn-corner {
+	float: right;
+	background: url(/sfaf/images/icons/icon_corner.png) no-repeat center right;
+	padding-right: 20px;
+	font-size: .6em;
+	text-transform: uppercase;
+	color: #999;
+	margin: 10px;
+	cursor: pointer;
+}
+.side-section {
+	width: 238px;
+	margin: 0px 0px 10px 10px;
+	height: auto;
+	position: relative;
+}
+.side-section h3 {
+	font-size: .9em;
+	font-weight: bold;
+	margin: 0px;
+}
+.side-section ul {
+	clear: both;
+	margin: 0;
+	padding: 0;
+	font-size: .9em;
+	list-style: none;
+}
+.side-section ul li {
+	border-top: solid 1px #CCC;
+	padding: 10px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.side-section .header {
+	font-weight: bolder;
+	font-size: 1.4em;
+	height: 47px;
+	border: 1px solid #fff;
+	background-image: url(/sfaf/images/backgrounds/bk_sideheader.png);
+	background-repeat: repeat-x;
+	padding: 0px;
+	margin: 0px;
+	cursor: auto;
+}
+.side-section .header h3 {
+	padding: 0px;
+	margin: 15px 0px 0px 10px;
+	float: left;
+}
+.side-section ul li.header b {
+	color: #FFA92D;
+	float: right;
+	font-size: .6em;
+	margin: 20px 10px 0px 0px;
+	padding: 0px;
+	cursor: pointer;
+}
+.hot-topics ul li {
+	border-top: solid 1px #CCC;
+	height: auto;
+	padding: 10px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.hot-topics ul li.item h3 {
+	margin: 0px;
+	color: #FFA92D;
+}
+.hot-topics ul li.item h4 {
+	margin: 0px;
+	font-size: .7em;
+	font-weight: bold;
+	color: #999;
+}
+img.icon-corner {
+	height: 10px;
+	width: 10px;
+	float: right;
+	margin: -15px 5px 0 0;
+	cursor: pointer;
+}
+.inner-shadow-mid h3 {
+	color: #FFA92D;
+}
+.resources .item img {
+	float: right;
+	margin: 0px 10px 0px 2px;
+}
+.more {
+	color: #FFA92D;
+	cursor: pointer;
+}

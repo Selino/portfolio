@@ -1,0 +1,551 @@
+/* CSS Document */
+
+.wrapper-header .section-sub {
+  background-color: #FFA92D;
+}
+ul.subnav2 {
+  border:1px solid #FFA92D;
+  border-top: none;
+}
+#aboutus.active {
+	background-color: #FFA92D;
+}
+#section-sub.aboutus-active {
+	background-color: #FFA92D;
+}
+.subnav-on {
+	background: #F60 url(/sfaf/images/sha_subnav.png) repeat-x;
+	text-shadow: #FFFFFF 0px 0px 18px;
+}
+/* BODY ELEMENTS */
+.col1 {
+	float: left;
+	width: 730px;
+	position: relative;
+}
+.col2 {
+	float: right;
+	width: 250px;
+	position: relative;
+}
+.beauty-shot {
+	width: 100%;
+	height: 266px;
+}
+.bs {
+	background: transparent url(/sfaf/images/beautyshots/bs_aboutus.png) no-repeat right top;
+	height: 100%;
+}
+.bs h1 {
+	padding: 0px;
+	margin: 0px;
+	font-size: 3em;
+	font-weight: bold;
+	position: absolute;
+	top: 40px;
+	left: 30px;
+}
+.bs p {
+	padding: 0px;
+	margin: 0px;
+	position: absolute;
+	top: 100px;
+	left: 30px;
+	width: 300px;
+	line-height: 1.7em;
+}
+.home-item {
+	width: 218px;
+	height: 180px;
+	float: left;
+	margin: 18px 8px 0px 0px;
+	padding: 10px;
+	font-size: .8em;
+	cursor: pointer;
+}
+.last {
+	margin-right: 0px;
+}
+.home-item h3 {
+	margin: 0px;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+.btn-corner {
+	float: right;
+	background: url(/sfaf/images/icons/icon_corner.png) no-repeat center right;
+	padding-right: 20px;
+	font-size: .6em;
+	text-transform: uppercase;
+	color: #999;
+	margin: 10px;
+	cursor: pointer;
+}
+.side-section {
+	width: 238px;
+	margin: 0px 0px 10px 10px;
+}
+.side-section h3 {
+	font-size: 1.2em;
+	font-weight: bold;
+	margin: 0px;
+}
+.side-section ul {
+	clear: both;
+	margin: 0;
+	padding: 0;
+	font-size: .8em;
+	list-style: none;
+}
+.side-section ul li {
+	border-top: solid 1px #CCC;
+	padding: 10px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.side-section ul li.first {
+	border: none;
+}
+.side-section .header {
+	font-weight: bolder;
+	font-size: 1.4em;
+	height: 47px;
+	border: 1px solid #fff;
+	background-image: url(/sfaf/images/backgrounds/bk_sideheader.png);
+	background-repeat: repeat-x;
+	padding: 0px;
+	margin: 0px;
+	cursor: auto;
+}
+.side-section .header h3 {
+	padding: 0px;
+	margin: 15px 0px 0px 10px;
+	float: left;
+	font-family: "museo-sans-1", Arial, Helvetica, sans-serif;
+}
+.side-section ul li.header b {
+	color: #FFA92D;
+	float: right;
+	font-size: .8em;
+	margin: 20px 10px 0px 0px;
+	padding: 0px;
+	cursor: pointer;
+	font-weight: normal;
+}
+.newsroom ul li {
+	background: url(/sfaf/images/icons/icon_aboutus_carrot.png) no-repeat 97% center;
+	font-weight: bold;
+}
+.side-section ul li.capitol {
+	background: url(/sfaf/images/icons/icon_stats.png) no-repeat 10px;
+}
+.side-section ul li.podium {
+	background: url(/sfaf/images/icons/icon_book.png) no-repeat 10px;
+}
+.side-section ul li.paper {
+	background: url(/sfaf/images/icons/icon_check.png) no-repeat 10px;
+}
+/* FACTS SECTION */
+.hot-topics ul li {
+	border-top: solid 1px #CCC;
+	height: auto;
+	padding: 10px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.hot-topics ul li.item h3 {
+	margin: 0px;
+	color: #FFA92D;
+}
+.hot-topics ul li.item h4 {
+	margin: 0px;
+	font-size: .7em;
+	font-weight: bold;
+	color: #999;
+}
+img.icon-corner {
+	height: 10px;
+	width: 10px;
+	float: right;
+	margin: -15px 5px 0 0;
+	cursor: pointer;
+}
+.inner-shadow-mid h3 {
+	color: #FFA92D;
+}
+.resources .item img {
+	float: right;
+	margin: 0px 10px 0px 2px;
+}
+.more {
+	color: #FFA92D;
+	cursor: pointer;
+}
+/*NEWSROOM*/
+div.news-col {
+	width: 237px;
+	min-height: 500px;
+	border-top: solid 7px #FFA92D;
+	float: left;
+	padding: 0;
+	margin: 10px 10px 0 0;
+}
+div.col-last {
+	margin-right: 0px;
+}
+div.news-col h2 {
+	font-size: 1.8em;
+	margin: 20px 0 0 10px;
+	line-height: 1em;
+}
+p.col-desc {
+	margin: 10px;
+	color: #6D6B65;
+	font-size: .8em;
+	height: 70px;
+	line-height: 1.4em;
+}
+img.news-col-img {
+	float: right;
+	margin: 10px;
+}
+ul.newsroom-control {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: .6em;
+	font-weight: bold;
+	border-bottom: solid 1px #CCC;
+	border-top: solid 1px #CCC;
+	height: 20px;
+	line-height: 20px;
+}
+ul.newsroom-control li a {
+	text-decoration: none;
+	color: inherit;
+}
+ul.newsroom-control li.control1 {
+	color: #333;
+	text-transform: uppercase;
+	float: left;
+	padding-left: 10px;
+}
+ul.newsroom-control li.control2  {
+	background:url("/sfaf/images/icons/icon_corner_aboutus.png") no-repeat scroll right center transparent;
+	color:#B4B3A0;
+	float:right;
+	margin-right:10px;
+	padding-right:20px;
+	text-align:right;
+	text-transform:uppercase;
+}
+ul.newsroom-control li.control2 a:hover {
+	color: #999;
+}
+div.news-col ul.newsfeed {
+	margin: 0;
+	padding: 20px 10px 0 10px;
+	list-style: none;
+	min-height: 200px;
+	background: url(/sfaf/images/backgrounds/bg_subsection_grad.png) repeat-x left top;
+	font-size: .8em;
+}
+div.news-col ul.newsfeed li.left {
+	float: left;
+	width: 30px;
+	height: 30px;
+	padding: 10px;
+}
+div.news-col ul.newsfeed li.right {
+	float: left;
+	width: 150px;
+}
+div.news-col ul.newsfeed li.hr {
+	clear: both;
+	margin-bottom: 1em;
+}
+div.news-col ul.newsfeed li.bill {
+	background: url(/sfaf/images/icons/icon_bill.png) no-repeat center top;
+}
+div.news-col ul.newsfeed li.capital {
+	background: url(/sfaf/images/icons/icon_capital.png) no-repeat center top;
+}
+div.news-col ul.newsfeed li.cash {
+	background: url(/sfaf/images/icons/icon_cash.png) no-repeat center top;
+}
+.news-date {
+	font-weight: bold;
+}
+ul.list {
+	margin: 0;
+	padding: 20px 10px 0 10px;
+	list-style: none;
+	min-height: 200px;
+	background: url(/sfaf/images/backgrounds/bg_subsection_grad.png) repeat-x left top;
+	font-size: .8em;
+	font-weight: bold;
+}
+ul.list li {
+	border-bottom: solid 1px #CCC;
+	overflow: hidden;
+	cursor: pointer;
+	background: url(/sfaf/images/icons/icon_aboutus_carrot.png) no-repeat 97% center;
+	padding: 6px;
+}
+div.sub-gradient {
+	background: url(/sfaf/images/backgrounds/bg_subsection_grad.png) repeat-x left top;
+	min-height: 100px;
+	padding: 10px;
+	font-size: .8em;
+}
+div.date-widget {
+	color: #FFA92D;
+	width: 31px;
+	height: 37px;
+	padding: 0;
+	margin: 0;
+	margin-top: 10px;
+	position: relative;
+}
+div.date-widget h3.month {
+	margin: 0;
+	padding: 0;
+	background-color: #FFA92D;
+	color: #FFF;
+	font-size: 9px;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+div.date-widget h3.day {
+	margin: 0;
+	padding: 0;
+	background: url(/sfaf/images/backgrounds/bg_date_box.png) no-repeat left bottom;
+	border: solid 1px #CCC;
+	border-top: none;
+	color: #FFF;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	color: #FFA92D;
+	text-shadow: 1px 1px #FFF;
+}
+div.date-widget p.date-time {
+	position: absolute;
+	top: 0px;
+	left: 40px;
+	width: 160px;
+	color: #000;
+	font-weight: bold;
+	margin: 0;
+}
+/* MEDIA ASSETS */
+div.bizcard {
+	width: 240px;
+	border-left: solid 1px #CCC;
+	position: absolute;
+	right: 2px;
+	top: 0px;
+	height: 102px;
+}
+div.bizcard h3 {
+	height: 33px;
+	width: 240px;
+	background: url(/sfaf/images/backgrounds/bg_short_header.png) repeat-x 1px 1px;
+	border-bottom: solid 1px #CCC;
+	margin: 1px;
+	text-indent: 10px;
+	line-height: 2em;
+	font-weight: bold;
+	font-family: "museo-sans-1", Arial, Helvetica, sans-serif;
+}
+div.bizcard p {
+	margin: 7px 0 0 10px;
+}
+div.bizcard p span.name {
+	font-weight: bold;
+}
+div.bizcard p span.title {
+	font-style: italic;
+	font-size: .75em;
+}
+div.bizcard p span.address {
+	font-weight: bold;
+	font-size: .75em;
+}
+div.bizcard p span.address a {
+	color: #FFA92D;
+}
+div.assets .left {
+	float: left;
+	margin: 0 10px 0 0;
+	width: 190px;
+}
+ul.menu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 189px;
+	position: absolute;
+	left: -10px;
+	font-size: .8em;
+}
+ul.menu li {
+	list-style: none;
+	margin: 0;
+	padding: 0 0 0 20px;
+	height: 32px;
+	line-height: 32px;
+}
+ul.menu li.active {
+	background: url(/sfaf/images/backgrounds/bg_aboutus_menu_active.png) no-repeat left top;
+	font-weight: bold;
+}
+div.assets .right {
+	float: right;
+	margin: 0;
+	width: 780px;
+	border-top: solid 1px #CCC;
+}
+ul.asset-gallery {
+	margin: 10px;
+	padding: 0;
+	list-style: none;
+}
+ul.asset-gallery li {
+	float: left;
+	margin: 20px;
+}
+ul.asset-gallery li p {
+	margin: 0;
+	padding: 0;
+	font-size: .8em;
+}
+ul.asset-gallery li.hr {
+	margin: 0;
+	padding: 0;
+	height: 0;
+	width: 0;
+	clear: both;
+}
+ul.asset-gallery li p.pict {
+	background-color: #FFF;
+	height: 106px;
+	width: 106px;
+	box-shadow: 0px 0px 3px #999;
+	-moz-box-shadow: 0px 0px 3px #999;
+	-webkit-box-shadow: 0px 0px 3px #999;
+	filter: 
+        progid:DXImageTransform.Microsoft.Shadow(color=#CCCCCC,direction=0,strength=2)
+        progid:DXImageTransform.Microsoft.Shadow(color=#CCCCCC,direction=90,strength=2)
+        progid:DXImageTransform.Microsoft.Shadow(color=#CCCCCC,direction=180,strength=2)
+        progid:DXImageTransform.Microsoft.Shadow(color=#CCCCCC,direction=270,strength=2);
+}
+ul.asset-gallery li p.title {
+	font-weight: bold;
+	margin-top: 10px;
+}
+/*MEDIA RELEASES*/
+div.releases .left {
+	float: left;
+	margin: 0 10px 0 0;
+	width: 190px;
+}
+div.releases .right {
+	float: right;
+	margin: 0;
+	width: 780px;
+	border-top: solid 1px #CCC;
+}
+ul.release-list {
+	list-style: none;
+	margin: 0 0 100px 0;
+	padding: 0;
+}
+ul.release-list li {
+	margin: 10px 10px 10px 0;
+	border-bottom: solid 1px #CCC;
+	text-indent: 50px;
+	height: 30px;
+	line-height: 28px;
+}
+ul.release-list span.date {
+	font-weight: bold;
+}
+ul.release-list li.bullhorn {
+	background: url(/sfaf/images/icons/icon_bullhorn_s1.png) no-repeat 10px center;
+}
+ul.release-list li.capital {
+	background: url(/sfaf/images/icons/icon_capital2_s1.png) no-repeat 10px center;
+}
+ul.release-list li.legal {
+	background: url(/sfaf/images/icons/icon_legal_s1.png) no-repeat 10px center;
+}
+ul.release-list li.legislation {
+	background: url(/sfaf/images/icons/icon_legislation_s1.png) no-repeat 10px center;
+}
+ul.release-list li.forum {
+	background: url(/sfaf/images/icons/icon_forum_s1.png) no-repeat 10px center;
+}
+ul.release-list li.treatment {
+	background: url(/sfaf/images/icons/icon_treatment_s1.png) no-repeat 10px center;
+}
+ul.release-list li.article {
+	background: url(/sfaf/images/icons/icon_article_s1.png) no-repeat 10px center;
+}
+ul.release-list li.funding {
+	background: url(/sfaf/images/icons/icon_funding_s1.png) no-repeat 10px center;
+}
+ul.release-list li.alc {
+	background: url(/sfaf/images/icons/icon_alc_s1.png) no-repeat 10px center;
+}
+ul.release-list li.bicycle {
+	background: url(/sfaf/images/icons/icon_bicycle_s1.png) no-repeat 10px center;
+}
+ul.release-list li.aidswalk {
+	background: url(/sfaf/images/icons/icon_aidswalk_s1.png) no-repeat 10px center;
+}
+ul.release-list li.greater {
+	background: url(/sfaf/images/icons/icon_greater_s1.png) no-repeat 10px center;
+}
+#more-years-trigger {
+	margin: 20px 0 0 20px;
+	color: #FFA92D;
+	cursor: pointer;
+}
+#more-years {
+	display: none;
+}
+/*stragglers*/
+.newsroom .alt1 {
+	font-weight: bold;
+	background: url(/sfaf/images/icons/icon_corner_aboutus.png) no-repeat 220px 18px;
+	border-bottom: solid 1px #CCC;
+	font-size: 1.1em;
+}
+.newsroom .alt1 span.title {
+	float: left;
+}
+.newsroom .alt1 span.control {
+	font-size: .8em;
+	color: #CCC;
+	text-transform: uppercase;
+	display: block;
+	margin: 4px 15px 0 0;
+	float: right;
+}
+.newsroom .alt1 span.control:hover {
+	color: #999999;
+}
+.newsroom .capital {
+	background: url(/sfaf/images/icons/icon_capital.png) no-repeat 10px 10px;
+	padding-left: 50px;
+	border: none;
+	font-weight: normal;
+}
+.newsroom .law {
+	background: url(/sfaf/images/icons/icon_podium.png) no-repeat 10px 10px;
+	padding-left: 50px;
+	border: none;
+	font-weight: normal;
+}

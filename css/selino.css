@@ -1,0 +1,403 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, html {
+	font-family: "droid-sans";
+	color: #333;
+}
+body {
+	background-color: #FFF;
+	margin: 0px;
+	padding: 0px;
+}
+a, a:link, a:visited, a:active, a:hover, a:focus {
+	outline: none;
+	text-decoration: none;
+	color: inherit;
+}
+p {
+	padding-top: 0px;
+	margin-top: 0px;
+}
+img {
+	border: 0px;
+}
+h3 {
+	margin: 0px;
+	padding: 0px;
+}
+div {
+	margin: 0px;
+	padding: 0px;
+}
+div.scrollEl {
+	cursor: pointer;
+}
+#wrapper {
+	width: 170px;
+	height: 412px;
+	float: left;
+	overflow: hidden;
+}
+#instructions {
+	height: 16px;
+	color: #FC0;
+	text-align: center;
+	font-size: 9px;
+	margin: 0px;
+	padding: 0px;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	width: 172px;
+}
+.clearfloat {
+	clear: both;
+	height: 0px;
+	margin: 0px;
+}
+#beautyShot {
+	height: 100%;
+	width: 100%;
+}
+#beautyShotWrapper {
+	margin-left: 2px;
+	float: left;
+	height: 412px;
+	width: 532px;
+	overflow: hidden;
+	background-color: #333;
+	background-image: url(../images/backgrounds/overlay.png);
+}
+#beautyShotDescription {
+	padding: 10px;
+	float: left;
+	margin-left: 10px;
+	width: 200px;
+	height: 382px;
+	overflow: auto;
+	line-height: 130%;
+}
+#beautyShotDescription h3 {
+	margin: 0px 0px 6px 0px;
+	color: #666;
+	font-weight: 100;
+}
+#beautyShotDescription p {
+	font-size: 13px;
+}
+#scroller {
+	width: 920px;
+}
+.AbsWrap {
+	width: 100%;
+	position: relative;
+}
+.rowWrap {
+	width: 100%;
+}
+.clearfloat {
+	clear: both;
+	height: 0px;
+}
+#main {
+	width: 100%;
+	margin: 0px auto;
+	height: 100%;
+}
+#logo {
+	float: left;
+	height: 60px;
+	margin-left: 10px;
+}
+#bodyWrapper {
+	margin: 10px auto;
+	width: 956px;
+	overflow: hidden;
+	border-radius: 12px;
+	padding-bottom: 20px;
+}
+#contentArea {
+	border: solid 1px #CCC;
+	border-left: none;
+	border-right: none;
+	margin: 10px 0 0 10px;
+}
+#contactArea {
+	padding: 10px 10px 0 0;
+	text-decoration: none;
+	text-align: right;
+}
+.title-name {
+	font-size: 28px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-right: 10px;
+	background-color: #333;
+	color: white;
+	padding: 0 6px;
+}
+#contactArea a:link, #contactArea a:visited {
+	text-decoration: none;
+	margin-left: 10px;
+}
+#featureWrapper {
+	clear: both;
+	overflow: hidden;
+	margin: 30px auto;
+	border-bottom: solid 1px #CCC;
+}
+.featureImg {
+	float: right;
+	width: 300px;
+	height: 190px;
+	position: relative;
+	margin: 10px 0px 10px 10px;
+	background-color: #333;
+	background-image: url(../images/spots/home_shot.jpg);
+	background-position: right top;
+	box-shadow: 0px 0px 6px #000 inset;
+	border-bottom: solid 4px #333;
+	border-top: solid 4px #333;
+}
+.featureTitle {
+	color: #666;
+	font-size: 34px;
+	font-weight: 100;
+	margin: 10px 0px 0px 0px;
+	line-height: 130%;
+	letter-spacing: -1px;
+}
+.featureTitle:first-letter {
+	margin-left: 3%;
+}
+.featureSubTitle {
+	font-size: 15px;
+	margin: 10px 0px;
+	line-height: 150%;
+	font-weight: normal;
+	padding-bottom: 10px;
+}
+.feature_col {
+	float: left;
+	width: 45%;
+	margin: 0px;
+	padding: 20px;
+	line-height: 20px;
+	color: #000;
+	font-size: 11px;
+	letter-spacing: .025em;
+}
+.feature_col strong {
+	color: #000;
+	font-weight: bold;
+}
+#toggleFeature {
+	margin-left: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666;
+	text-decoration: none;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-weight: bold;
+}
+#toggleFeature:hover {
+	color: #999;
+}
+/*bottom items */
+.bottomItem {
+	margin-top: 10px;
+}
+.bottomItem ul {
+	padding: 0px;
+	text-align: center;
+	width: 916px;
+	margin: 12px auto;
+}
+.bottomItem ul li {
+	width: 200px;
+	height: 120px;
+	margin: 10px 10px;
+	padding: 0px;
+	list-style-type: none;
+	display: block;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-position: left top;
+	float: left;
+}
+.bottomItem ul li:hover {
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+}
+#toolsItem {
+	background-image: url(../images/bottom_items/tools.png);
+}
+#casestudyItem {
+	background-image: url(../images/bottom_items/casestudy.png);
+}
+#historyItem {
+	background-image: url(../images/bottom_items/history.png);
+}
+#musicItem {
+	background-image: url(../images/bottom_items/music.png);
+}
+/* footer */
+#footer {
+	margin: 10px auto;
+	text-align: center;
+	color: #FFF;
+	text-decoration: none;
+	font-size: 11px;
+}
+.footer_item a:hover {
+	text-decoration: underline;
+}
+/* soundfx */
+#soundfx {
+	visibility: hidden;
+	padding: 0px;
+	margin: 0px;
+}
+/* horizontal scroller */
+/* 
+    root element for the scrollable. 
+    when scrolling occurs this element stays still. 
+*/ 
+
+.browse {
+	float: left;
+	margin-top: 54px;
+	font-size: 32px;
+	cursor: pointer;
+	color: #999;
+}
+.browse:hover {
+	color: #FFF;
+}
+.bottom-badges {
+	position: relative;
+	overflow: hidden;
+	width: 880px;
+	margin: 16px auto;
+	padding: 0;
+	list-style: none;
+}
+.bottom-badges li {
+	float: left;
+	margin: 10px;
+}
+.port_scroll {
+	position: relative;
+	overflow: hidden;
+	height: 412px;
+	width: 170px;
+}
+ul.items {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.port_scroll div.items div img {
+	margin-bottom: 9px;
+}
+/* overlay */
+/* the overlayed element */ 
+.simple_overlay {
+	/* must be initially hidden */ 
+	display: none;
+	/* place overlay on top of other elements */ 
+	z-index: 10000;
+	/* styling */ 
+	background-color: #333;
+	width: 675px;
+	border: 1px solid #666;
+	/* CSS3 styling for latest browsers */ 
+	-moz-box-shadow: 0 0 90px 5px #000;
+	-webkit-box-shadow: 0 0 90px #000;
+}
+/* close button positioned on upper right corner */ 
+.simple_overlay .close {
+	background-image: url(http://static.flowplayer.orgimg/overlay/close.png);
+	position: absolute;
+	right: -15px;
+	top: -15px;
+	cursor: pointer;
+	height: 35px;
+	width: 35px;
+}
+/* use a semi-transparent image for the overlay */ 
+#overlay {
+	background-image: url(../images/transparent.png);
+	color: #efefef;
+}
+/* container for external content. uses vertical scrollbar, if needed */ 
+.contentWrap {
+	height: 550px;
+	overflow-y: auto;
+}
+/* bookshelf */
+.row .book_cover {
+	float: left;
+	margin: 0px 20px;
+	width: 150px;
+	-moz-box-shadow: #000 0px 0px 5px;
+	-webkit-box-shadow: #000 0px 0px 5px;
+}
+.book_description {
+	float: left;
+	width: 420px;
+}
+.book_description .title {
+	font-size: 18px;
+	color: #FFC;
+}
+.book_description .text {
+	margin-top: 10px;
+	line-height: 18px;
+}
+.row {
+	margin: 30px auto;
+	background-color: #006;
+}
+br {
+	clear: both;
+}
+.intro {
+	font-size: 18px;
+	margin-left: 30px;
+}
+/* bottom list */
+.bottom_list_container {
+	clear: both;
+	position: relative;
+	margin: 0px auto;
+	padding: 0px;
+	font-size: 18px;
+	width: 90%;
+}
+.bottom_list_container ul {
+	float: left;
+	list-style-position: inside;
+	line-height: 20px;
+	font-size: 13px;
+	list-style-type: square;
+	margin: 10px 30px;
+	padding: 0px;
+}
+.bottom_list_container ul li {
+	white-space: nowrap;
+}
+.bottom_list_container ul div {
+	width: 310px;
+	font-size: 18px;
+	line-height: 150%;
+}
+.icon-code, .icon-code:active {
+	margin-right: 8px;
+	outline: none;
+}
+.visit-site {
+	color: #FFC;
+	text-decoration: none;
+}

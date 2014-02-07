@@ -1,0 +1,78 @@
+/* CSS Document */
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+}
+.description h1 {
+	padding: 0px;
+	font-size: 17px;
+	text-transform: uppercase;
+	margin: 8px 0px;
+	color: #666;
+}
+.description p {
+	margin: 0px;
+	padding: 0px;
+	margin-bottom: 10px
+}
+.description p strong {
+	color: #333;
+}
+
+.icons {
+	margin: 30px 0 10px;
+}
+.osIcons {
+	background-image: url(images/icons.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 32px;
+	margin-top: 40px;
+}
+.mobileIcons {
+	background-image: url(images/icons.png);
+	background-repeat: no-repeat;
+	background-position: left -205px;
+	height: 32px;
+}
+.serverIcons {
+	background-image: url(images/icons.png);
+	background-repeat: no-repeat;
+	background-position: left -34px;
+	height: 32px;
+}
+.clientsideIcons {
+	background-image: url(images/icons.png);
+	background-repeat: no-repeat;
+	background-position: left -68px;
+	height: 32px;
+}
+.prodIcons {
+	background-image: url(images/icons.png);
+	background-repeat: no-repeat;
+	background-position: left -102px;
+	height: 32px;
+}
+.frameIcons {
+	background-image: url(images/icons.png);
+	background-repeat: no-repeat;
+	background-position: left -170px;
+	height: 32px;
+}
+.appIcons {
+	background-image: url(images/icons.png);
+	background-repeat: no-repeat;
+	background-position: left -136px;
+	height: 32px;
+}
+.overlay_content {
+	background-color: #fff;
+	color: #333;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	line-height: 26px;
+	font-size: 15px;
+	padding: 40px;
+	padding-top: 0;
+}

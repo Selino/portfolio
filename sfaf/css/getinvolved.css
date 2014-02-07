@@ -1,0 +1,422 @@
+/* CSS Document */
+
+.wrapper-header .section-sub {
+  background-color: #63BA47;
+}
+ul.subnav2 {
+  border:1px solid #63BA47;
+  border-top: none;
+}
+#getinvolved.active {
+	background-color: #63BA47;
+}
+.getinvolved h2 {
+	margin-top: 20px;
+}
+#section-sub.getinvolved-active {
+	background-color: #63BA47;
+}
+.subnav-on {
+	background: #090 url(/sfaf/images/sha_subnav.png) repeat-x;
+}
+/* BODY ELEMENTS */
+.col1 {
+	float: left;
+	width: 325px;
+	position: relative;
+}
+.col2 {
+	float: right;
+	width: 640px;
+	position: relative;
+}
+.beauty-shot {
+	width: 100%;
+	height: 133px;
+}
+.bs {
+	height: 100%;
+}
+.bs h1 {
+	padding: 0px;
+	margin: 35px 0px 0px 30px;
+	font-size: 3em;
+	font-weight: bold;
+	float: left;
+}
+.bs p {
+	float: left;
+	padding: 0px;
+	margin: 20px 0px 0px 30px;
+	width: 600px;
+	line-height: 1.7em;
+}
+.home-item {
+	width: 296px;
+	height: 180px;
+	float: left;
+	margin: 18px 8px 0px 0px;
+	padding: 10px;
+	font-size: .8em;
+	cursor: pointer;
+}
+.col1 .home-item {
+	width: auto;
+	margin: 18px 0px;
+}
+.home-icon {
+	float: right;
+	margin: 0px 0px 10px 10px;
+}
+.last {
+	margin-right: 0px;
+}
+.home-item h3 {
+	margin: 20px 0 0;
+	font-weight: bold;
+	font-size: 1.7em;
+}
+ul.donate-btns {
+	list-style: none;
+	margin: 10px 0 0;
+	padding: 0;
+}
+ul.donate-btns li {
+	float: left;
+	background: url(/sfaf/images/btns/bg_btn_grey.png) no-repeat center center;
+	width: 67px;
+	height: 30px;
+	border: solid 1px #ccc;
+	margin: 0px 5px 0px 0px;
+	color: #090;
+	font-size: 1.4em;
+	font-weight: bold;
+	text-align: center;
+	line-height: 2em;
+}
+ul.donate-btns li.orange {
+	float: left;
+	background: url(/sfaf/images/btns/bg_btn_orange.png) no-repeat center center;
+	width: 67px;
+	height: 30px;
+	border: solid 1px #F85701;
+	margin: 0px 5px 0px 0px;
+	color: #fff;
+}
+ul.donate-subbtns {
+	list-style: none;
+	margin: 10px 0 0;
+	padding: 0;
+	clear: both;
+}
+ul.donate-subbtns li {
+	background: url("/sfaf/images/icons/icon_getinvolved_carrot.png") no-repeat scroll 97% center transparent;
+	border-bottom: solid 1px #CCCCCC;
+	cursor: pointer;
+	padding: 10px;
+	font-weight: bold;
+}
+ul.donate-subbtns li.last {
+	border-bottom: none;
+}
+#form-signup {
+	margin-top: 8px;
+}
+#form-signup input.txt {
+	float: left;
+	width: 117px;
+	height: 18px;
+	padding: 2px;
+	margin-right: 4px;
+	color: #999;
+}
+#form-signup input.submit {
+	float: left;
+}
+div.participate {
+	height: auto;
+}
+ul.participate {
+	list-style: none;
+	margin: 10px 0;
+	padding: 0;
+}
+ul.participate li {
+	float: left;
+	background: url(/sfaf/images/backgrounds/bg_btn_parti_corner_s1.png) no-repeat center center;
+	width: 146px;
+	height: 111px;
+	margin: 0 6px 6px 0;
+	text-align: center;
+	position: relative;
+}
+ul.participate li img {
+	margin-top: 10px;
+}
+div.over {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	text-align: left;
+	background: #FFFFFF url(/sfaf/images/backgrounds/bg_btn_over_corner.png) no-repeat top left;
+	font-size: .8em;
+	line-height: normal;
+	height: 100%;
+	display: none;
+	padding: 8px;
+}
+div.over h3 {
+	font-size: 1.3em;
+	margin: 0;
+}
+div.over p {
+	margin: 0;
+}
+a.goto {
+	background-color:#FF0;
+	padding: 3px;
+	border: none;
+}
+div.over a.goto img {
+	border: none;
+}
+.wrapper-content {
+	min-height: 640px;
+}
+/*donate page*/
+.donate-form {
+	width: 100%;
+	min-height: 300px;
+	height: auto;
+	position: relative;
+}
+.donate-col1 {
+	float: left;
+	width: 720px;
+	position: relative;
+}
+.donate-col2 {
+	float: right;
+	width: 250px;
+	position: relative;
+}
+.moneygo {
+	font-size: .8em;
+	margin-bottom: 10px;
+}
+.moneygo p {
+	margin: 0;
+	padding: 10px;
+}
+.side-section ul {
+	clear: both;
+	margin: 0;
+	padding: 0;
+	font-size: .9em;
+	list-style: none;
+}
+.side-section ul li {
+	border-top: solid 1px #CCC;
+	padding: 10px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.side-section .header {
+	font-weight: bolder;
+	font-size: 1.4em;
+	height: 47px;
+	border: 1px solid #fff;
+	background-image: url(/sfaf/images/backgrounds/bk_sideheader.png);
+	background-repeat: repeat-x;
+	padding: 0px;
+	margin: 0px;
+	cursor: auto;
+}
+.side-section .header h3 {
+	padding: 0px;
+	margin: 15px 0px 0px 10px;
+	float: left;
+}
+.side-section ul li.waystogive {
+	background: url("/sfaf/images/icons/icon_getinvolved_carrot.png") no-repeat scroll 97% center transparent;
+}
+.form-header br {
+	clear: both;
+}
+.form-header h2 {
+	font-size: 3em;
+	margin: 10px;
+	float: left;
+}
+.form-header .progress-bar {
+	float: left;
+	background: url(/sfaf/images/various/donate_bar_off.png) no-repeat top left;
+	height: 30px;
+	margin: 20px 0px 0px 70px;
+	width: 450px;
+	color: #999;
+}
+.progress-bar .progress-marker {
+	height: 30px;
+	width: 30px;
+	float: left;
+}
+.stage2 {
+	margin-left: 157px;
+}
+.stage3 {
+	margin-left: 156px;
+}
+.marker-on {
+	background: url(/sfaf/images/various/progress_marker.png) no-repeat -1px -1px;
+}
+.marker-off {
+	background: url(/sfaf/images/various/progress_marker.png) no-repeat -1px -31px;
+}
+.marker-none {
+	display: none;
+}
+#progress-state1 {
+	font-size: .8em;
+	position: absolute;
+	top: 50px;
+	left: 215px;
+}
+#progress-state2 {
+	font-size: .8em;
+	position: absolute;
+	top: 50px;
+	left: 410px;
+}
+#progress-state3 {
+	font-size: .8em;
+	position: absolute;
+	top: 50px;
+	left: 610px;
+}
+.progress-on {
+		color: #63BA47;
+}
+.donate-form form {
+	margin: 10px;
+}
+.donate-form hr {
+	border: none;
+	border-top: solid 1px #ccc;
+}
+#donate label {
+	width: 100px;
+	margin: 8px;
+	text-align: right;
+	display: inline-block;
+}
+#donate input {
+	margin: 8px;
+}
+#donate input[type=text] {
+	margin: 8px;
+	height: 24px;
+}
+#donate label.wide {
+	width: auto;
+	margin: 0;
+	font-size: .8em;
+}
+#donate .submit {
+	color: #03C;
+	background: url(/sfaf/images/btns/bg_btn_orange.png) repeat-x top left;
+	border: none;
+	color: #FFF;
+	font-size: 1.7em;
+	outline: none;
+}
+.donate-form h3 {
+	font-size: .75em;
+	margin-top: 40px;
+	font-weight: bold;
+}
+.donate-form .amount {
+	font-weight: bold;
+	font-size: 1.3em;
+}
+.amount-radio {
+	margin: 8px 0px;
+}
+.donate-form .fineprint {
+	color: #999;
+	font-size: .8em;
+}
+div.tabs {
+	margin: 20px 0;
+	clear: both;
+	border-bottom: solid 1px #DAD9CC;
+	height: 29px;
+	color: #B4B3A0;
+}
+div.tabs b {
+	font-weight: bold;
+	display: inline-block;
+	height: 20px;
+	font-size: .8em;
+	
+	/* Sliding right image */
+	display: block;
+	float: left;
+	height: 30px; /* CHANGE THIS VALUE ACCORDING TO IMAGE HEIGHT */
+	padding-right: 5px; /* CHANGE THIS VALUE ACCORDING TO RIGHT IMAGE WIDTH */
+	/* FONT PROPERTIES */
+	text-decoration: none;
+	cursor: pointer;
+	margin-right: 10px;
+}
+div.tabs b a {
+/* Background left image */  
+	display: block;
+	line-height: 30px; /* CHANGE THIS VALUE ACCORDING TO BUTTONG HEIGHT */
+	padding: 0px 10px 5px 17px;
+	text-decoration:none;
+	text-transform: uppercase;
+}
+div.tabs b.active {
+	color: #000;
+	background: transparent url('/sfaf/images/btns/donate_tab_rt.png') no-repeat scroll top right;
+}
+div.tabs b.active a {
+	background: transparent url('/sfaf/images/btns/donate_tab_lt.png') no-repeat;
+}
+span.memory {
+	margin-left: 80px;
+	font-weight: bold;
+}
+span.keepup {
+	margin-left: 30px;
+	width: 200px;
+	text-align: left;
+	display: inline-block;
+}
+#inmemory {
+	display: none;
+	margin: 20px 0;
+}
+#inmemory div.submemory {
+	border: solid 1px #B4B3A0;
+	padding: 10px;
+	margin: 10px;
+}
+.notify_text1 {
+	margin: 20px 0 0 40px;
+	display: inline-block;
+	font-weight: bold;
+}
+#dollaramount {
+	display: none;
+}
+#monthly_donation {
+  display:none;
+  margin:20px 0;
+  width:300px;
+}
+#monthstotal {
+	color: #63BA47;
+	font-weight: bold;
+}

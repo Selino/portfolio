@@ -1,0 +1,21 @@
+/* CSS Document */
+
+.wrapper-header .nav-main ul li {
+	padding-top: 2px;
+}
+ul.subnav {
+	top: 61px;
+}
+div.section-sub {
+	padding-top: 2px;
+}
+.block-footer #search {
+	height: 28px;
+	line-height: 2em;
+}
+.nav-next-img {
+	margin-top: 8px;
+}
+.wrapper-header .section-sub {
+	display: inherit;
+}

@@ -1,0 +1,196 @@
+/* CSS Document */
+
+/* HEADER MENU */
+.wrapper-header {
+	height: 58px;
+}
+.wrapper-header .section-sub {
+	display: none;
+	height: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+/* BEAUTY SHOTS */
+.beauty-shot {
+	width: 980px;
+	height: 312px;
+	border-top: solid 10px #000;
+	border-bottom: solid 3px #000;
+}
+.beauty-shot .text-area {
+	float: right;
+	width: 320px;
+	margin-left: 25px;
+}
+.beautyshot1 {
+	background: #FFF url(/sfaf/images/beautyshots/home_bs_s1.png) no-repeat top left;
+}
+.beautyshot2 {
+	background: #FFF url(/sfaf/images/beautyshots/home_bs_s2.png) no-repeat top left;
+}
+.beautyshot3 {
+	background: #FFF url(/sfaf/images/beautyshots/home_bs_s3.png) no-repeat top left;
+}
+/* BODY ELEMENTS */
+h1 {
+	font-size: 3.5em;
+	line-height: 1em;
+	margin: 0;
+	padding-top: 20px;
+}
+.beauty-shot p {
+	padding-right: 20px;
+	font-size: .8em;
+}
+div.home-item {
+	width: 184px;
+	height: 154px;
+	float: left;
+	margin: 18px 7px 0px 0px;
+	padding: 13px;
+	font-size: 1em;
+	cursor: pointer;
+	line-height: 1.3em;
+}
+.home-item h3 {
+	margin: 0px;
+	font-weight: bold;
+	font-size: 2em;
+}
+.home-news {
+	width: 327px;
+	height: 187px;
+	float: left;
+	margin: 18px 0px 0px 0px;
+}
+.home-news h3 {
+	font-size: .6em;
+	font-weight: bold;
+	float: left;
+	margin: 10px;
+	text-transform: uppercase;
+}
+.home-news ul {
+	clear: both;
+	margin: 0px;
+	padding: 0;
+	font-size: .9em;
+	list-style: none;
+}
+.home-news ul li {
+	border-top: solid 1px #CCC;
+	height: 40px;
+	padding: 10px 0 0 50px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.home-news ul li.capitol {
+	background: url(/sfaf/images/icons/icon_capital.png) no-repeat 10px;
+}
+.home-news ul li.podium {
+	background: url(/sfaf/images/icons/icon_podium.png) no-repeat 10px;
+}
+.home-news ul li.paper {
+	background: url(/sfaf/images/icons/icon_paper.png) no-repeat 10px;
+}
+.btn-corner {
+	float: right;
+	background: url(/sfaf/images/icons/icon_corner.png) no-repeat center right;
+	padding-right: 20px;
+	font-size: .6em;
+	text-transform: uppercase;
+	color: #999;
+	margin: 10px;
+	cursor: pointer;
+}
+/* scroller */
+#wrapper {
+	display:none;
+	margin:auto;/*width:1000px;*/
+}
+#myScroll {
+/*display:none;*/
+}
+#myScroll .scrollEl {
+	display:none;
+	height:312px;
+	padding: 0;
+	margin: 0;
+}
+#controls {
+	text-align: right;
+	margin: 0 0 8px 0;
+}
+#controls div {
+	display:inline-block;
+	cursor:pointer;
+}
+#controls .page {
+	background: url(/sfaf/images/backgrounds/bg_scroll_control.png) no-repeat -1px center;
+	text-align: center;
+	padding:5px;
+	color:gray;
+	display: inline-block;
+	margin-left: 4px;
+}
+#controls .sel {
+	color: #fff !important;
+	font-weight: bold;
+	background: url(/sfaf/images/backgrounds/bg_scroll_control_on.png) no-repeat -1px center;
+}
+#controls .disabled {
+	color:gray;
+}
+/* CUSTOM NAV FOR HOME */
+#home-nav-shadow {
+	padding: 0 0 0 15px;
+	margin-top: 4px;
+	align: right;
+	vertical-align: middle;
+}
+ul.subnav {
+	list-style: none;
+	position: absolute; /*--Important - Keeps subnav from affecting main navigation flow--*/
+	left: 0;
+	top: 58px;
+	background: #EAE9E1;
+	margin: 0;
+	padding: 0;
+	display: none;
+	z-index: 900;
+}
+ul.subnav li{
+	margin: 0;
+	padding: 0;
+	width: 170px;
+	font-size: .9em;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+}
+ul.subnav li a {
+	float: left;
+	width: 145px;
+	padding-left: 20px;
+}
+ul.subnav li a:hover {
+	color: #FFF;
+}
+ul.home-topnav .right-nav {
+	background-image: none;
+}
+#hiv101.active, #hiv101 ul.subnav li:hover {
+	background-color: #1AA89f;
+}
+#clientservices.active, #clientservices ul.subnav li:hover {
+	background-color: #f05b2b;
+}
+#policycenter.active, #policycenter ul.subnav li:hover {
+	background-color: #00a9ef;
+}
+#getinvolved.active, #getinvolved ul.subnav li:hover {
+	background-color: #5eb70f;
+}
+#aboutus.active, #aboutus ul.subnav li:hover {
+	background-color: #ffa92d;
+}

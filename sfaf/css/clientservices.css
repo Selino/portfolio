@@ -1,0 +1,61 @@
+/* CSS Document */
+
+.wrapper-header .section-sub {
+  background-color: #f05b2b;
+}
+ul.subnav2 {
+  border:1px solid #f05b2b;
+  border-top: none;
+}
+#clientservices.active {
+	background-color: #f05b2b;
+}
+#section-sub.clientservices-active {
+	background-color: #f05b2b;
+}
+.beauty-shot {
+	width: 100%;
+	height: 236px;
+	background: #FFFFFF url(/sfaf/images/beautyshots/bs_clientservices.jpg) no-repeat top right;
+}
+.beauty-shot h1 {
+	padding: 36px 0 0 20px;
+	width: 500px;
+	margin: 0;
+}
+.beauty-shot p {
+	width: 500px;
+	line-height: 2em;
+	padding: 0 0 0 20px;
+	margin: 0;
+}
+.home-item {
+	border-top: 7px solid #f05b2b;
+	width: 301px;
+	height: 355px;
+	float: left;
+	margin: 18px 8px 0px 0px;
+	padding: 10px;
+	font-size: .9em;
+	cursor: pointer;
+}
+.last {
+	margin-right: 0;
+}
+.home-icon {
+	float: right;
+	margin: 0 0 10px 10px;
+}
+.home-item ul.list {
+	list-style: none;
+	margin: 10px 0 0 0;
+	padding: 0;
+}
+.home-item .list li {
+	background: url(/sfaf/images/icons/icon_corner_clientservices.png) no-repeat 100% 90%;
+	border-bottom: solid 1px #CCC;
+	padding: 10px 0 10px 0;
+}
+.home-item ul.list .title {
+	font-weight: bold;
+}

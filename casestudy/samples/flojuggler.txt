@@ -1,0 +1,214 @@
+BASIC CALCULATOR FUNCTIONS ON MODEL
+-----------------------------------
+<?php
+class Flo extends AppModel {
+    var $name = 'Flo';
+	var $belongsTo = array(
+	   'User'=>array(
+			'className'=>'User',
+			'conditions'=>null,
+			'foreignKey'=>'user_id',
+			'fields'=>null,
+			'dependent'=>true
+			)
+	   );
+	
+	var $hasOne = array(
+	'Alert'=>array(
+				 'dependent'=> true // for deleting an item when the related item is deleted
+				 )
+	);
+	
+	var $hasMany = array(
+	'Upload'=>array(
+				 'className'=>'Upload',
+				 'conditions'=>null,
+				 'foreignKey'=>'user_id',
+				 'fields'=>null,
+				 'dependent'=> true // for deleting an item when the related item is deleted
+				 )
+	);
+}
+
+  function makeDays($value) {
+	  $number = $value/60/60/24;
+	  return round($number);
+  }
+  
+  function detectFlo($today,$recordDay,$cycle) {
+	  $status = ($today - $recordDay)%($cycle);
+	  return $status;
+  }
+  
+  function getIcon($today,$recordDay,$cycle,$length) {
+	  $flo = detectFlo($today,$recordDay,$cycle,$length);
+		  
+	  if ($flo < $length) {
+		  // red: x days into
+		  echo "<div title='on her flow' class='red_icon'></div>";
+	  } else {
+		  // yellow : x days until
+		  $difference = ($today - $recordDay);
+		  $days = $cycle - $flo;
+		  
+		  if ($days <= 3) {
+			echo "<div title='near her flow' class='yellow_icon'></div>";
+		  } else {
+			echo "<div title='no flow' class='green_icon'></div>";
+		  }
+	  }
+  }
+  
+  function getSmallIcon($today,$recordDay,$cycle,$length) {
+	  $flo = detectFlo($today,$recordDay,$cycle);
+		  
+	  if ($flo < $length) {
+		  // red: x days into
+		  echo "<li title='on her flow' class='small_red_icon'></li>";
+	  } else {
+		  // yellow : x days until
+		  // $difference = ($today - $recordDay);
+		  $days = $cycle - $flo;
+		  
+		  if ($days <= 3) {
+			echo "<li title='near her flow' class='small_yellow_icon'></li>";
+		  } else {
+			echo "<li title='no flow' class='small_green_icon'></li>";
+		  }
+	  }
+  }
+  
+  function getStatus($today,$recordDay,$cycle,$length) {
+	  $flo = detectFlo($today,$recordDay,$cycle,$length);
+	  
+	  if ($flo < $length) {
+		  // red: x days into
+		  $days = $length - $flo;
+		  echo "<span class=\"red\">".$days."</span> days left on her flo";
+	  } else {
+		  // yellow : x days until
+		  $difference = ($today - $recordDay);
+		  $days = $cycle - $flo;
+		  
+		  if ($days <= 3) {
+			echo "<span class=\"yellow\">".$days."</span> days from her next flo";
+		  } else {
+		  	echo "<span class=\"green\">".$days."</span> days to her next flo";
+		  }
+	  }
+  }
+  
+  function nextFlo($value,$NO,$d,$p) {
+	  $status = ($value - $NO)%($d);
+	  return ($d - $status);
+  }
+
+  function getThumbnail($img_name,$flo_id) {
+	  if ($img_name != "") {
+		echo "/img/gallery/" . $flo_id . "/thumbnails/" . $img_name;
+	  } else {
+		echo "/img/spacer.gif";
+	  }
+  }
+  
+  function getSmallThumbnail($img_name,$flo_id) {
+	  if ($img_name != "") {
+		echo "/img/gallery/" . $flo_id . "/thumbnails/" . $img_name;
+	  } else {
+		echo "/img/icons/default_thumb_16.png";
+	  }
+  }
+  
+  function getNotes($value,$id) {
+	  if ($value == "") {
+		echo "notes_icon_off";
+	  } else {
+		echo "notes_icon_on";
+	  }
+  }
+  
+  function getPhotos($value,$id) {
+	  if ($value == "no") {
+		echo "photos_icon_on";
+	  } else {
+		echo "photos_icon_on";
+	  }
+  }
+?>
+
+FLOS CONTROLLER
+---------------
+<?php
+class FlosController extends AppController {
+
+	var $name = 'Flos';
+
+	function index() {
+		$conditions = array("Flo.user_id" => $this->Auth->user('id'));
+		$this->set('flos', $this->Flo->find('all', array('conditions' => $conditions, 'order' => 'Flo.id DESC')));
+		$this->checkiphone('index','iphone','indexiphone');
+	}
+	
+	function view($id) {
+		$conditions = array("Flo.id" => $id,"Flo.user_id" => $this->Auth->user('id'));
+		$total = $this->Flo->find('count', array('conditions' => $conditions, 'order' => 'Flo.id DESC'));
+		return $total;
+	}
+	
+	function update($id) {
+		//$this->layout = 'update_setting';
+		$this->Flo->id = $id;
+		$this->set('flo', $this->Flo->read());
+		$this->checkiphone('update','ajax','updateiphone');
+	}
+	
+	function setthumbnail($img_name,$flo_id,$pict_id) {
+		$this->Flo->read(null,$flo_id);
+		$this->Flo->set('pict', $img_name);
+		$this->Flo->set('pict_id', $pict_id);
+		$this->Flo->save();
+		echo 'set';
+	}
+		
+	function status($id) {
+		$this->Flo->id = $id;
+		$this->set('flo', $this->Flo->read());
+	}
+	
+	function edit($id = null) {
+		$this->set('user', $this->Auth->user('id'));
+		$this->Flo->id = $id;
+		if (empty($this->data)) {
+			$this->data = $this->Flo->read();
+		} else {
+			if ($this->Flo->save($this->data)) {
+			}
+		}
+	}
+
+	function add() {
+		$this->layout = 'ajax';
+		$conditions = array("Flo.user_id" => $this->Auth->user('id'));
+		$found = $this->Flo->find('count', array('conditions' => $conditions));
+		if ($found >= 10){
+			$this->set('msg', 'max');
+		} else {
+			$this->set('msg', 'added');
+			$data = array('start_date' => date("Y-m-d"),'user_id' => $this->Auth->user('id'));
+			$this->Flo->save($data);
+			$flo_id =  $this->Flo->id;
+			
+			$conditions = array('Flo.id' => $flo_id);
+			$this->set('flo', $this->Flo->find('first', array('conditions' => $conditions)));
+			$this->checkiphone('add','ajax','addiphone');
+		}
+	}
+	
+	function delete($id) {
+		$photos = $this->requestAction('/uploads/deleteFolder/'.$id);
+		$conditions = array("Flo.user_id" => $this->Auth->user('id'), "Flo.id" => $id);
+		$this->Flo->deleteAll($conditions);
+	}
+
+}
+?>
